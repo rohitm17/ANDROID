@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACTION_DIAL" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Text2speech">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".front_page1" />
+        <activity android:name=".Wifi_use" />
+        <activity android:name=".Push_notification" />
+        <activity android:name=".SMS" />
+        <activity android:name=".View_pager" />
+        <activity android:name=".Todo" />
+        <activity android:name=".Message_receive" />
+        <activity android:name=".Message_passing" />
+        <activity android:name=".Res_view">
+
+        </activity>
+        <activity android:name=".Capture_vdo" />
+        <activity android:name=".Capture_img" />
+        <activity android:name=".Add_googlemap" />
+        <activity android:name=".Dialer" />
+        <activity android:name=".Open_website" />
+        <activity android:name=".Pymlds" />
+        <activity android:name=".Searchv_listv" />
+        <activity android:name=".progressbar" />
+        <activity android:name=".Splash" />
+        <activity android:name=".Webview" />
+        <activity android:name=".Calender" />
+        <activity android:name=".Cal" />
+        <activity android:name=".Vdo" />
+        <activity android:name=".Img" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
