@@ -15,3 +15,12 @@
   We have created a folder assets in which we have paste our local web pages.
   To open our local web pages we have used loadUrl method of webView.
   For links to open in our web view itself we have used WebViewClient.
+<B>Block08</B>
+  In this block we will learn how to build an app with multiple activities.
+  for new activity: right-click on app> new > activity
+  We have used Intent to move from one activity to other with some data.
+  we use setClass() method to call second activity.
+  then we call startActivity() method for second activity to start.
+  we pass data using putExtra() method which includes key, value 
+  key should be same on both activities.
+  In SecondActivity first use getIntent() method, then use getFloatExtra() to get the key.
