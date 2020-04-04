@@ -24,3 +24,11 @@
   we pass data using putExtra() method which includes key, value 
   key should be same on both activities.
   In SecondActivity first use getIntent() method, then use getFloatExtra() to get the key.
+  
+<B>Block09</B>
+  In this block we use implicit intent to pass our message-text to our message-app of our mobile phone.
+  cpcbility: ACTION_SENDTO
+  we use Uri :
+    URI(Uniform resource identifier) as its name suggests is used to identify resource
+    (whether it be a page of text, a video or sound clip, a still or animated image, or a program).
+    
