@@ -32,3 +32,6 @@
     URI(Uniform resource identifier) as its name suggests is used to identify resource
     (whether it be a page of text, a video or sound clip, a still or animated image, or a program).
     
+<B>Dummy</B>
+  It is simply a tic tac toe game . It uses Relative and Linear layout, Buttons and TextViews.
+  To make the app comfortable with screen rotation we use <I>onSaveInstanceState</I> and <I>onRestoreInstanceState</I> methods.
