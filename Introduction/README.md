@@ -17,18 +17,18 @@
   For links to open in our web view itself we have used WebViewClient.
 <B>Block08</B>
   In this block we will learn how to build an app with multiple activities.
-  for new activity: right-click on app> new > activity
-  We have used Intent to move from one activity to other with some data.
+  For new activity: <I> right-click on app> new > activity</I>
+  We have used Intent(explicitly) to move from one activity to other with some data.
   we use setClass() method to call second activity.
   then we call startActivity() method for second activity to start.
-  we pass data using putExtra() method which includes key, value 
+  we pass data using putExtra() method which includes key, value pair.
   key should be same on both activities.
   In SecondActivity first use getIntent() method, then use getFloatExtra() to get the key.
   
 <B>Block09</B>
-  In this block we use implicit intent to pass our message-text to our message-app of our mobile phone.
-  cpcbility: ACTION_SENDTO
-  we use Uri :
+  In this block we use implicit Intent to pass our message-text to our message-app of our mobile phone.
+  capability: ACTION_SENDTO
+  We use Uri :
     URI(Uniform resource identifier) as its name suggests is used to identify resource
     (whether it be a page of text, a video or sound clip, a still or animated image, or a program).
     
